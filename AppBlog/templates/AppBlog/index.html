@@ -1,0 +1,87 @@
+{% extends 'AppBlog/base.html' %}
+
+{% block main %}
+
+<main>
+     <!-- Header-->
+     <header class="bg-dark py-5">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">
+                    <div class="text-center my-5">
+                        <h1 class="display-5 fw-bolder text-white mb-2">Bienvenido a BairesHard</h1>
+                        <p class="lead text-white-50 mb-4">Los mejores productos al mejor precio</p>                           
+                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="{% url 'product-list'%}">Ver Productos</a>
+                            <a class="btn btn-outline-light btn-lg px-4" href="{% url 'product-create'%}">Agregar Productos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- Features section-->
+    <section class="py-5 border-bottom" id="features">
+        <div class="container px-5 my-5">
+            <div class="row gx-5">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-cart2"></i></div>
+                    <h2 class="h4 fw-bolder">Compra fácil y rápida</h2>
+                    <p>Comprá en un sitio seguro y recibilo en un sólo click.</p>
+                </div>
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-truck"></i></div>
+                    <h2 class="h4 fw-bolder">Envíos a todo el país</h2>
+                    <p>Realizamos envíos a todo el país. Recibí tu producto donde sea que estés.</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-credit-card"></i></div>
+                    <h2 class="h4 fw-bolder">Pagá en cuotas.</h2>
+                    <p>En BairesHard podrás pagar con tarjeta de credito hasta 6 cuotas sin interes, o con debito en un pago!.</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <!-- Testimonials section-->
+    <section class="py-5 border-bottom">
+        <div class="container px-5 my-5 px-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bolder">Reseñas de nuestros Clientes</h2>
+                <p class="lead mb-0">Nuestros clientes están fascinados.</p>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">
+                    <!-- Opinion 1-->
+                    <div class="card mb-4">
+                        <div class="card-body p-4">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                <div class="ms-4">
+                                    <p class="mb-1">Los mejores precios!</p>
+                                    <div class="small text-muted">- Augusto Martinez Eirin</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Opinion 2-->
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                <div class="ms-4">
+                                    <p class="mb-1">Super facil el manejo de la pagina, lo recomiendo!</p>
+                                    <div class="small text-muted">- Nadir Lucca Vidal</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "AppBlog/base.html" %}
+
+{% block main %}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h1>Saliste de tu cuenta</h1>
+                    <p>¡Esperamos verte pronto en BairesHard!</p>
+                    <a href="{% url 'login' %}" class="btn btn-primary">Iniciar sesión</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
