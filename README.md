@@ -7,3 +7,6 @@ BairesHard es una simulacion de sitio web para publicar y/o comprar productos el
 
 Dejo un link con un video para mostrar el funcionamiento del sitio web: https://www.youtube.com/watch?v=Yo29bqeIhD8
 
+la cuenta superuser es:
+admin
+12345678
