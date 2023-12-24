@@ -1,5 +1,7 @@
 Proyecto Final - Agustin Zanzi Alegre
 
+Comisión - 47790
+
 Sitio web de compra/venta de dispositivos electronicos
 
 En este sitio vas a poder registrar una cuenta, loguearte, cerrar la sesion de la cuenta, modificar el perfil agregando una descripcion y cambiando la foto de perfil.
